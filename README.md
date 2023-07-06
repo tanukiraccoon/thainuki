@@ -31,8 +31,8 @@ from thainuki import malagor, thai2lu, lu2thai, khamphuan
 # Lu language generator
 thai2lu("ไทยนูกิ") # => Output: ['ลัยทุย','ลานู','หลิกุ']
 
-# Reverse Lu language
-lu2thai("ลัยทุย ลานู หลิกุ") # => Output: ['ทัยนูกิ']
+# Reverse Lu language (full of bugs, use carefully.)
+lu2thai("ลัยทุย ลานู ลิกุ") # => Output: ['ทัย','นู','กิ']
 
 # Malagor language generator
 malagor("ไทยนูกิ") # => Output: ['ทะละกัย','นะละกู','กะละกิ']
